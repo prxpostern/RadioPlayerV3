@@ -52,7 +52,7 @@ class Config:
     ADMINS.append(1316963576)
     API_ID = int(os.environ.get("API_ID", ""))
     API_HASH = os.environ.get("API_HASH", "")
-    CHAT_ID = int(os.environ.get("CHAT_ID", ""))
+    CHAT = int(os.environ.get("CHAT", ""))
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     SESSION = os.environ.get("SESSION_STRING", "")
 
@@ -93,4 +93,3 @@ class Config:
 
     msg = {}
     playlist=[]
-
